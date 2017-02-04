@@ -45,6 +45,17 @@ app.use(function(req, res, next) {
 });
 
 // ROUTES
+
+app.get('/api/log/list', function (req, res) {
+    userModel.find(function(err,users){
+        if (err){
+            res.status(500).json({error:err});
+        } else {
+            res.json(users);
+        }
+    });
+});
+
 app.get('/api/user/:username?', function (req, res) {
     if(req.params.username){
         twitter_scrapper(req.params.username, function(err, data){
