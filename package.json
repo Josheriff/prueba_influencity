@@ -16,14 +16,17 @@
     "Technical",
     "Challenge"
   ],
-  "private":true,
-  "author":   {
-      "name": "Jose Manuel Gallego Chamorro",
-      "url": "https://github.com/Josheriff"
-    },
+  "private": true,
+  "author": {
+    "name": "Jose Manuel Gallego Chamorro",
+    "url": "https://github.com/Josheriff"
+  },
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/Josheriff/prueba_influencity/issues"
   },
-  "homepage": "https://github.com/Josheriff/prueba_influencity#readme"
+  "homepage": "https://github.com/Josheriff/prueba_influencity#readme",
+  "dependencies": {
+    "gulp": "3.9.1"
+  }
 }
