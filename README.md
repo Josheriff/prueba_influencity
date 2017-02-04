@@ -1,2 +1,2 @@
-# prueba_influencity
+# prueba influencity
 Prueba técnica
