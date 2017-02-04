@@ -51,7 +51,7 @@ module.exports = function (profile,callback){
         var cleanData = undefined;
         if(!err){
             cleanData = {
-                id:uuid.v4(),
+                _id:uuid.v4(),
                 data:{
                     screen_name: data.screen_name,
                     followers_count: fixNumber(data.followers_count),
