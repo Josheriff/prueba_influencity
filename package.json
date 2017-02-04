@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/Josheriff/prueba_influencity#readme",
   "dependencies": {
-    "gulp": "3.9.1"
+    "gulp": "3.9.1",
+    "gulp-debug": "^3.0.0",
+    "gulp-eslint": "^3.0.1"
   }
 }
