@@ -1,0 +1,29 @@
+{
+  "name": "prueba_influencity",
+  "version": "0.1.0",
+  "description": "Prueba técnica de Influencity",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josheriff/prueba_influencity.git"
+  },
+  "keywords": [
+    "postulate",
+    "Infulencity",
+    "Technical",
+    "Challenge"
+  ],
+  "private":true,
+  "author":   {
+      "name": "Jose Manuel Gallego Chamorro",
+      "url": "https://github.com/Josheriff"
+    },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Josheriff/prueba_influencity/issues"
+  },
+  "homepage": "https://github.com/Josheriff/prueba_influencity#readme"
+}
