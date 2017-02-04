@@ -77,6 +77,10 @@ app.get('/api/user/:username?', function (req, res) {
     }
 });
 
-app.listen(port, function () {
+var server = app.listen(port, function () {
     console.log(`Influencity test running on port ${port}`);
 });
+
+// FOR TESTING SUPPORT
+
+module.exports = server;
