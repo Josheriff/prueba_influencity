@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 
 gulp.task('jsdoc', function(cb) {
     var config = require('./docs/jsdoc.json');
-    gulp.src(['./docs/README.md', './**/*.js', '!./gulp-tasks/**', '!./docs/**', '!./dist/**', '!./node_modules/**', '!./test/**.js', '!gulpfile.js', '!./coverage'], {read: false})
+    gulp.src(['./docs/README.md', '!./NOTAS/**', './**/*.js', '!./gulp-tasks/**', '!./docs/**', '!./dist/**', '!./node_modules/**', '!./test/**.js', '!gulpfile.js', '!./coverage'], {read: false})
         .pipe(debug({title: 'JSDoc (Scope):'}))
         .pipe(jsdoc(config, cb));
 });
