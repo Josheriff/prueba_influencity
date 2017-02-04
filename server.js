@@ -51,10 +51,13 @@ app.get('/api/user/:username?', function (req, res) {
             if (err){
                 res.status(500).json({error:err});
             } else {
-                // date parsed to ISO 8601 format easier to work with in the future
-
-                //var nowIso = new Date().toISOString();
                 res.json(data);
+                // date parsed to ISO 8601 format easier to work with in the future
+                data.date = new Date().toISOString();
+                var user = new userModel(data);
+                user.save(function(err){
+                    if(err) console.log("Error! Saving user in MongoDB");
+                })
             }
         });
     } else {
